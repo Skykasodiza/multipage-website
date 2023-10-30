@@ -19,11 +19,11 @@ h3 {
 
 h1 {
   font-size: 96px;
-  
 }
 
 h2 {
   font-size: 48px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -32,20 +32,24 @@ h3 {
   opacity: 0.7;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 570px) {
   h1 {
-    font-size: 76px;
+    font-size: 70px;
     text-align: center;
   }
   h2 {
-    font-size: 28px;
+    font-size: 25px;
     text-align: center;
   }
   h3 {
     font-size: 14px;
     text-align: center;
   }
+  img {
+    display: none;
+  }
 }
+
 p {
   padding: 20px;
   border-radius: 4px;
@@ -56,14 +60,14 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 30px;
   justify-content: center;
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 30px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding:15px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -111,9 +115,8 @@ p {
   text-decoration: none;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  padding: 20px 15px;
+  padding: 15px 15px;
   border-radius: 4px;
-  line-height: 20px;
 }
 
 .paragraph-text {
